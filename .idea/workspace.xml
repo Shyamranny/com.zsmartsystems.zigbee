@@ -2,377 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99b9e63a-ab7c-4d5c-a7ed-0315c184d577" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee.autocode/.project" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee.autocode/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee.autocode/src/main/resources/zcl_definition.md" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee.autocode/src/main/resources/zcl_definition.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee.console.ember/.project" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee.console.ember/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee.console.main/.project" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee.console.main/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee.console.telegesis/.project" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee.console.telegesis/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee.console/.project" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee.console/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee.console/src/main/java/com/zsmartsystems/zigbee/console/ZigBeeConsoleBindCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee.console/src/main/java/com/zsmartsystems/zigbee/console/ZigBeeConsoleBindCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee.console/src/main/java/com/zsmartsystems/zigbee/console/ZigBeeConsoleDescribeEndpointCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee.console/src/main/java/com/zsmartsystems/zigbee/console/ZigBeeConsoleDescribeEndpointCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee.console/src/main/java/com/zsmartsystems/zigbee/console/ZigBeeConsoleDescribeNodeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee.console/src/main/java/com/zsmartsystems/zigbee/console/ZigBeeConsoleDescribeNodeCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee.console/src/main/java/com/zsmartsystems/zigbee/console/ZigBeeConsoleNodeListCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee.console/src/main/java/com/zsmartsystems/zigbee/console/ZigBeeConsoleNodeListCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.cc2531/.project" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.cc2531/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.conbee/.project" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.conbee/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.ember.autocode/.project" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.ember.autocode/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.ember/.project" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.ember/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.ember/src/main/java/com/zsmartsystems/zigbee/dongle/ember/EmberNcp.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.ember/src/main/java/com/zsmartsystems/zigbee/dongle/ember/EmberNcp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.ember/src/main/java/com/zsmartsystems/zigbee/dongle/ember/ZigBeeDongleEzsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.ember/src/main/java/com/zsmartsystems/zigbee/dongle/ember/ZigBeeDongleEzsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.telegesis.autocode/.project" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.telegesis.autocode/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.telegesis/.project" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.telegesis/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.telegesis/src/main/java/com/zsmartsystems/zigbee/dongle/telegesis/ZigBeeDongleTelegesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.telegesis/src/main/java/com/zsmartsystems/zigbee/dongle/telegesis/ZigBeeDongleTelegesis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.xbee.autocode/.project" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.xbee.autocode/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.xbee/.project" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.xbee/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee.serial/.project" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee.serial/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/.project" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/ZigBeeProfileType.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/ZigBeeProfileType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclAlarmsCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclAlarmsCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclAnalogInputBaCnetExtendedCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclAnalogInputBaCnetExtendedCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclAnalogInputBaCnetRegularCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclAnalogInputBaCnetRegularCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclAnalogInputBasicCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclAnalogInputBasicCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclAnalogOutputBaCnetExtendedCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclAnalogOutputBaCnetExtendedCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclAnalogOutputBaCnetRegularCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclAnalogOutputBaCnetRegularCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclAnalogOutputBasicCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclAnalogOutputBasicCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclAnalogValueBaCnetExtendedCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclAnalogValueBaCnetExtendedCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclAnalogValueBaCnetRegularCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclAnalogValueBaCnetRegularCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclAnalogValueBasicCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclAnalogValueBasicCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclApplianceControlCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclApplianceControlCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclApplianceEventsAndAlertsCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclApplianceEventsAndAlertsCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclApplianceIdentificationCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclApplianceIdentificationCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclApplianceStatisticsCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclApplianceStatisticsCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclBaCnetProtocolTunnelCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclBaCnetProtocolTunnelCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclBallastConfigurationCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclBallastConfigurationCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclBasicCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclBasicCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclBinaryInputBaCnetExtendedCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclBinaryInputBaCnetExtendedCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclBinaryInputBaCnetRegularCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclBinaryInputBaCnetRegularCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclBinaryInputBasicCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclBinaryInputBasicCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclBinaryOutputBaCnetExtendedCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclBinaryOutputBaCnetExtendedCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclBinaryOutputBaCnetRegularCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclBinaryOutputBaCnetRegularCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclBinaryOutputBasicCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclBinaryOutputBasicCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclBinaryValueBaCnetExtendedCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclBinaryValueBaCnetExtendedCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclBinaryValueBaCnetRegularCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclBinaryValueBaCnetRegularCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclBinaryValueBasicCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclBinaryValueBasicCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclColorControlCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclColorControlCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclCommissioningCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclCommissioningCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclDehumidificationControlCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclDehumidificationControlCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclDemandResponseAndLoadControlCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclDemandResponseAndLoadControlCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclDeviceTemperatureConfigurationCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclDeviceTemperatureConfigurationCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclDiagnosticsCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclDiagnosticsCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclDoorLockCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclDoorLockCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclElectricalMeasurementCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclElectricalMeasurementCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclFanControlCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclFanControlCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclFlowMeasurementCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclFlowMeasurementCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclGeneralCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclGeneralCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclGenericTunnelCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclGenericTunnelCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclGroupsCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclGroupsCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclIasAceCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclIasAceCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclIasWdCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclIasWdCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclIasZoneCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclIasZoneCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclIdentifyCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclIdentifyCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclIlluminanceLevelSensingCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclIlluminanceLevelSensingCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclIlluminanceMeasurementCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclIlluminanceMeasurementCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclKeyEstablishmentCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclKeyEstablishmentCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclLevelControlCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclLevelControlCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclMessagingCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclMessagingCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclMeteringCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclMeteringCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclMultistateInputBaCnetExtendedCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclMultistateInputBaCnetExtendedCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclMultistateInputBaCnetRegularCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclMultistateInputBaCnetRegularCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclMultistateInputBasicCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclMultistateInputBasicCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclMultistateOutputBaCnetExtendedCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclMultistateOutputBaCnetExtendedCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclMultistateOutputBaCnetRegularCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclMultistateOutputBaCnetRegularCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclMultistateOutputBasicCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclMultistateOutputBasicCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclMultistateValueBaCnetExtendedCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclMultistateValueBaCnetExtendedCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclMultistateValueBaCnetRegularCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclMultistateValueBaCnetRegularCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclMultistateValueBasicCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclMultistateValueBasicCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclOccupancySensingCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclOccupancySensingCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclOnOffCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclOnOffCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclOnOffSwitchConfigurationCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclOnOffSwitchConfigurationCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclOtaUpgradeCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclOtaUpgradeCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclPollControlCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclPollControlCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclPowerConfigurationCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclPowerConfigurationCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclPressureMeasurementCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclPressureMeasurementCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclPriceCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclPriceCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclPumpConfigurationAndControlCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclPumpConfigurationAndControlCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclRelativeHumidityMeasurementCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclRelativeHumidityMeasurementCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclRssiLocationCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclRssiLocationCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclScenesCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclScenesCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclShadeConfigurationCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclShadeConfigurationCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclTemperatureMeasurementCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclTemperatureMeasurementCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclThermostatCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclThermostatCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclThermostatUserInterfaceConfigurationCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclThermostatUserInterfaceConfigurationCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclTimeCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclTimeCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclTouchlinkCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclTouchlinkCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclTunnelingCluster.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/ZclTunnelingCluster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/alarms/AlarmCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/alarms/AlarmCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/alarms/GetAlarmCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/alarms/GetAlarmCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/alarms/GetAlarmResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/alarms/GetAlarmResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/alarms/ResetAlarmCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/alarms/ResetAlarmCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/alarms/ResetAlarmLogCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/alarms/ResetAlarmLogCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/alarms/ResetAllAlarmsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/alarms/ResetAllAlarmsCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/basic/PhysicalEnvironmentEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/basic/PhysicalEnvironmentEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/basic/PowerSourceEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/basic/PowerSourceEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/basic/ResetToFactoryDefaultsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/basic/ResetToFactoryDefaultsCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/binaryinputbasic/ReliabilityEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/binaryinputbasic/ReliabilityEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/binaryinputbasic/StatusFlagsEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/binaryinputbasic/StatusFlagsEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/ColorCapabilitiesEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/ColorCapabilitiesEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/ColorLoopSetCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/ColorLoopSetCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/ColorModeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/ColorModeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/EnhancedColorModeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/EnhancedColorModeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/EnhancedMoveToHueAndSaturationCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/EnhancedMoveToHueAndSaturationCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/EnhancedMoveToHueCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/EnhancedMoveToHueCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/EnhancedStepHueCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/EnhancedStepHueCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/MoveColorCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/MoveColorCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/MoveHueCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/MoveHueCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/MoveSaturationCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/MoveSaturationCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/MoveToColorCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/MoveToColorCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/MoveToColorTemperatureCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/MoveToColorTemperatureCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/MoveToHueAndSaturationCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/MoveToHueAndSaturationCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/MoveToHueCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/MoveToHueCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/MoveToSaturationCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/MoveToSaturationCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/StepColorCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/StepColorCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/StepHueCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/StepHueCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/StepSaturationCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/colorcontrol/StepSaturationCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/commissioning/ResetStartupParametersCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/commissioning/ResetStartupParametersCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/commissioning/ResetStartupParametersResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/commissioning/ResetStartupParametersResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/commissioning/RestartDeviceCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/commissioning/RestartDeviceCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/commissioning/RestartDeviceResponseResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/commissioning/RestartDeviceResponseResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/commissioning/RestoreStartupParametersCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/commissioning/RestoreStartupParametersCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/commissioning/RestoreStartupParametersResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/commissioning/RestoreStartupParametersResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/commissioning/SaveStartupParametersCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/commissioning/SaveStartupParametersCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/commissioning/SaveStartupParametersResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/commissioning/SaveStartupParametersResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/doorlock/LockDoorCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/doorlock/LockDoorCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/doorlock/LockDoorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/doorlock/LockDoorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/doorlock/UnlockDoorCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/doorlock/UnlockDoorCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/doorlock/UnlockDoorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/doorlock/UnlockDoorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/electricalmeasurement/MeasurementTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/electricalmeasurement/MeasurementTypeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/ConfigureReportingCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/ConfigureReportingCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/ConfigureReportingResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/ConfigureReportingResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/DefaultResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/DefaultResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/DiscoverAttributesCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/DiscoverAttributesCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/DiscoverAttributesExtended.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/DiscoverAttributesExtended.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/DiscoverAttributesExtendedResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/DiscoverAttributesExtendedResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/DiscoverAttributesResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/DiscoverAttributesResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/DiscoverCommandsGenerated.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/DiscoverCommandsGenerated.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/DiscoverCommandsGeneratedResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/DiscoverCommandsGeneratedResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/DiscoverCommandsReceived.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/DiscoverCommandsReceived.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/DiscoverCommandsReceivedResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/DiscoverCommandsReceivedResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/ReadAttributesCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/ReadAttributesCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/ReadAttributesResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/ReadAttributesResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/ReadAttributesStructuredCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/ReadAttributesStructuredCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/ReadReportingConfigurationCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/ReadReportingConfigurationCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/ReadReportingConfigurationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/ReadReportingConfigurationResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/ReportAttributesCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/ReportAttributesCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/WriteAttributesCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/WriteAttributesCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/WriteAttributesNoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/WriteAttributesNoResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/WriteAttributesResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/WriteAttributesResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/WriteAttributesStructuredCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/WriteAttributesStructuredCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/WriteAttributesStructuredResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/WriteAttributesStructuredResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/WriteAttributesUndividedCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/general/WriteAttributesUndividedCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/groups/AddGroupCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/groups/AddGroupCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/groups/AddGroupIfIdentifyingCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/groups/AddGroupIfIdentifyingCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/groups/AddGroupResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/groups/AddGroupResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/groups/GetGroupMembershipCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/groups/GetGroupMembershipCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/groups/GetGroupMembershipResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/groups/GetGroupMembershipResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/groups/RemoveAllGroupsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/groups/RemoveAllGroupsCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/groups/RemoveGroupCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/groups/RemoveGroupCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/groups/RemoveGroupResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/groups/RemoveGroupResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/groups/ViewGroupCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/groups/ViewGroupCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/groups/ViewGroupResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/groups/ViewGroupResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/AlarmStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/AlarmStatusEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/ArmCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/ArmCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/ArmModeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/ArmModeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/ArmNotificationEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/ArmNotificationEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/ArmResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/ArmResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/BypassCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/BypassCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/BypassResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/BypassResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/BypassResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/BypassResultEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/EmergencyCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/EmergencyCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/FireCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/FireCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/GetBypassedZoneListCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/GetBypassedZoneListCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/GetPanelStatusCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/GetPanelStatusCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/GetPanelStatusResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/GetPanelStatusResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/GetZoneIdMapCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/GetZoneIdMapCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/GetZoneIdMapResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/GetZoneIdMapResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/GetZoneInformationCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/GetZoneInformationCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/GetZoneInformationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/GetZoneInformationResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/GetZoneStatusCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/GetZoneStatusCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/GetZoneStatusResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/GetZoneStatusResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/PanelStatusChangedCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/PanelStatusChangedCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/PanelStatusEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/PanelStatusEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/PanicCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/PanicCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/SetBypassedZoneListCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/SetBypassedZoneListCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/ZoneStatusChangedCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iasace/ZoneStatusChangedCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iaswd/SquawkCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iaswd/SquawkCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iaswd/StartWarningCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iaswd/StartWarningCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iaszone/EnrollResponseCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iaszone/EnrollResponseCodeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iaszone/InitiateNormalOperationModeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iaszone/InitiateNormalOperationModeCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iaszone/InitiateTestModeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iaszone/InitiateTestModeCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iaszone/ZoneEnrollRequestCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iaszone/ZoneEnrollRequestCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iaszone/ZoneEnrollResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iaszone/ZoneEnrollResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iaszone/ZoneStateEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iaszone/ZoneStateEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iaszone/ZoneStatusChangeNotificationCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iaszone/ZoneStatusChangeNotificationCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iaszone/ZoneTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/iaszone/ZoneTypeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/identify/IdentifyCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/identify/IdentifyCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/identify/IdentifyQueryCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/identify/IdentifyQueryCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/identify/IdentifyQueryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/identify/IdentifyQueryResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/levelcontrol/MoveCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/levelcontrol/MoveCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/levelcontrol/MoveToLevelCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/levelcontrol/MoveToLevelCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/levelcontrol/MoveToLevelWithOnOffCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/levelcontrol/MoveToLevelWithOnOffCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/levelcontrol/MoveWithOnOffCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/levelcontrol/MoveWithOnOffCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/levelcontrol/StepCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/levelcontrol/StepCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/levelcontrol/StepWithOnOffCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/levelcontrol/StepWithOnOffCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/levelcontrol/Stop2Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/levelcontrol/Stop2Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/levelcontrol/StopCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/levelcontrol/StopCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/multistateinputbasic/ReliabilityEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/multistateinputbasic/ReliabilityEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/multistateinputbasic/StatusFlagsEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/multistateinputbasic/StatusFlagsEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/multistateoutputbasic/ReliabilityEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/multistateoutputbasic/ReliabilityEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/multistateoutputbasic/StatusFlagsEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/multistateoutputbasic/StatusFlagsEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/multistatevaluebasic/ReliabilityEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/multistatevaluebasic/ReliabilityEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/multistatevaluebasic/StatusFlagsEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/multistatevaluebasic/StatusFlagsEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/onoff/OffCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/onoff/OffCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/onoff/OffWithEffectCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/onoff/OffWithEffectCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/onoff/OnCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/onoff/OnCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/onoff/OnWithRecallGlobalSceneCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/onoff/OnWithRecallGlobalSceneCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/onoff/OnWithTimedOffCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/onoff/OnWithTimedOffCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/onoff/ToggleCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/onoff/ToggleCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/onoffswitchconfiguration/SwitchActionsEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/onoffswitchconfiguration/SwitchActionsEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/onoffswitchconfiguration/SwitchTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/onoffswitchconfiguration/SwitchTypeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/otaupgrade/ImageBlockCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/otaupgrade/ImageBlockCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/otaupgrade/ImageBlockResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/otaupgrade/ImageBlockResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/otaupgrade/ImageNotifyCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/otaupgrade/ImageNotifyCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/otaupgrade/ImagePageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/otaupgrade/ImagePageCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/otaupgrade/QueryNextImageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/otaupgrade/QueryNextImageCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/otaupgrade/QueryNextImageResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/otaupgrade/QueryNextImageResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/otaupgrade/QuerySpecificFileCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/otaupgrade/QuerySpecificFileCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/otaupgrade/QuerySpecificFileResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/otaupgrade/QuerySpecificFileResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/otaupgrade/UpgradeEndCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/otaupgrade/UpgradeEndCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/otaupgrade/UpgradeEndResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/otaupgrade/UpgradeEndResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/pollcontrol/CheckInCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/pollcontrol/CheckInCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/pollcontrol/CheckInResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/pollcontrol/CheckInResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/pollcontrol/FastPollStopCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/pollcontrol/FastPollStopCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/pollcontrol/SetLongPollIntervalCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/pollcontrol/SetLongPollIntervalCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/pollcontrol/SetShortPollIntervalCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/pollcontrol/SetShortPollIntervalCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/powerconfiguration/BatterySizeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/powerconfiguration/BatterySizeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/AnchorNodeAnnounceCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/AnchorNodeAnnounceCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/CompactLocationDataNotificationCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/CompactLocationDataNotificationCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/DeviceConfigurationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/DeviceConfigurationResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/GetDeviceConfigurationCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/GetDeviceConfigurationCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/GetLocationDataCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/GetLocationDataCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/LocationDataNotificationCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/LocationDataNotificationCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/LocationDataResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/LocationDataResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/ReportRssiMeasurementsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/ReportRssiMeasurementsCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/RequestOwnLocationCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/RequestOwnLocationCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/RssiPingCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/RssiPingCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/RssiRequestCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/RssiRequestCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/RssiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/RssiResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/SendPingsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/SendPingsCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/SetAbsoluteLocationCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/SetAbsoluteLocationCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/SetDeviceConfigurationCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/rssilocation/SetDeviceConfigurationCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/scenes/AddSceneCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/scenes/AddSceneCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/scenes/AddSceneResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/scenes/AddSceneResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/scenes/GetSceneMembershipCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/scenes/GetSceneMembershipCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/scenes/GetSceneMembershipResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/scenes/GetSceneMembershipResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/scenes/RecallSceneCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/scenes/RecallSceneCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/scenes/RemoveAllScenesCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/scenes/RemoveAllScenesCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/scenes/RemoveAllScenesResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/scenes/RemoveAllScenesResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/scenes/RemoveSceneCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/scenes/RemoveSceneCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/scenes/RemoveSceneResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/scenes/RemoveSceneResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/scenes/StoreSceneCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/scenes/StoreSceneCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/scenes/StoreSceneResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/scenes/StoreSceneResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/scenes/ViewSceneCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/scenes/ViewSceneCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/scenes/ViewSceneResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/scenes/ViewSceneResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/thermostat/ClearWeeklySchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/thermostat/ClearWeeklySchedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/thermostat/GetRelayStatusLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/thermostat/GetRelayStatusLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/thermostat/GetRelayStatusLogResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/thermostat/GetRelayStatusLogResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/thermostat/GetWeeklySchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/thermostat/GetWeeklySchedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/thermostat/GetWeeklyScheduleResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/thermostat/GetWeeklyScheduleResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/thermostat/SetWeeklySchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/thermostat/SetWeeklySchedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/thermostat/SetpointRaiseLowerCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/clusters/thermostat/SetpointRaiseLowerCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/protocol/ZclClusterType.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/protocol/ZclClusterType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/protocol/ZclCommandType.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/protocol/ZclCommandType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/protocol/ZclDataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zcl/protocol/ZclDataType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ActiveEndpointStoreRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ActiveEndpointStoreRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ActiveEndpointStoreResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ActiveEndpointStoreResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ActiveEndpointsRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ActiveEndpointsRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ActiveEndpointsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ActiveEndpointsResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/BackupBindTableRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/BackupBindTableRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/BackupBindTableResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/BackupBindTableResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/BackupSourceBindRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/BackupSourceBindRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/BindRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/BindRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/BindRegisterResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/BindRegisterResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/BindRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/BindRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/BindResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/BindResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/CacheRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/CacheRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ComplexDescriptorRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ComplexDescriptorRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ComplexDescriptorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ComplexDescriptorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/DeviceAnnounce.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/DeviceAnnounce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/DiscoveryCacheRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/DiscoveryCacheRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/DiscoveryCacheResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/DiscoveryCacheResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/DiscoveryStoreRequestRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/DiscoveryStoreRequestRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/DiscoveryStoreResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/DiscoveryStoreResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/EndDeviceBindRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/EndDeviceBindRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/EndDeviceBindResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/EndDeviceBindResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ExtendedActiveEndpointRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ExtendedActiveEndpointRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ExtendedActiveEndpointResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ExtendedActiveEndpointResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ExtendedSimpleDescriptorRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ExtendedSimpleDescriptorRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ExtendedSimpleDescriptorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ExtendedSimpleDescriptorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/FindNodeCacheRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/FindNodeCacheRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/FindNodeCacheResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/FindNodeCacheResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/IeeeAddressRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/IeeeAddressRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/IeeeAddressResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/IeeeAddressResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementBindRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementBindRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementBindResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementBindResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementCacheResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementCacheResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementDirectJoinRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementDirectJoinRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementDirectJoinResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementDirectJoinResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementLeaveRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementLeaveRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementLeaveResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementLeaveResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementLqiRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementLqiRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementLqiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementLqiResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementNetworkDiscovery.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementNetworkDiscovery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementNetworkDiscoveryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementNetworkDiscoveryResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementNetworkUpdateNotify.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementNetworkUpdateNotify.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementPermitJoiningRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementPermitJoiningRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementPermitJoiningResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementPermitJoiningResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementRoutingRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementRoutingRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementRoutingResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ManagementRoutingResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/MatchDescriptorRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/MatchDescriptorRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/MatchDescriptorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/MatchDescriptorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/NetworkAddressRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/NetworkAddressRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/NetworkAddressResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/NetworkAddressResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/NetworkUpdateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/NetworkUpdateRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/NodeDescriptorRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/NodeDescriptorRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/NodeDescriptorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/NodeDescriptorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/NodeDescriptorStoreRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/NodeDescriptorStoreRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/NodeDescriptorStoreResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/NodeDescriptorStoreResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/PowerDescriptorRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/PowerDescriptorRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/PowerDescriptorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/PowerDescriptorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/PowerDescriptorStoreRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/PowerDescriptorStoreRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/PowerDescriptorStoreResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/PowerDescriptorStoreResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/RecoverBindTableRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/RecoverBindTableRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/RecoverBindTableResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/RecoverBindTableResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/RecoverSourceBindRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/RecoverSourceBindRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/RecoverSourceBindResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/RecoverSourceBindResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/RemoveBackupBindEntryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/RemoveBackupBindEntryResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/RemoveBackupBindTableRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/RemoveBackupBindTableRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/RemoveNodeCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/RemoveNodeCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/RemoveNodeCacheRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/RemoveNodeCacheRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ReplaceDeviceRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ReplaceDeviceRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ReplaceDeviceResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/ReplaceDeviceResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/SimpleDescriptorRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/SimpleDescriptorRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/SimpleDescriptorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/SimpleDescriptorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/SimpleDescriptorStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/SimpleDescriptorStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/SimpleDescriptorStoreResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/SimpleDescriptorStoreResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/StoreBackupBindEntryRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/StoreBackupBindEntryRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/StoreBackupBindEntryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/StoreBackupBindEntryResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/SystemServerDiscoveryRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/SystemServerDiscoveryRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/UnbindRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/UnbindRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/UnbindResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/UnbindResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/UserDescriptorConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/UserDescriptorConf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/UserDescriptorRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/UserDescriptorRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/UserDescriptorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/UserDescriptorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/UserDescriptorSetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/zdo/command/UserDescriptorSetRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/test/java/com/zsmartsystems/zigbee/ZigBeeProfileTypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/test/java/com/zsmartsystems/zigbee/ZigBeeProfileTypeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.ember/src/test/java/com/zsmartsystems/zigbee/dongle/ember/ZigBeeDongleEzspTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.ember/src/test/java/com/zsmartsystems/zigbee/dongle/ember/ZigBeeDongleEzspTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.telegesis/src/test/java/com/zsmartsystems/zigbee/dongle/telegesis/ZigBeeDongleTelegesisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.telegesis/src/test/java/com/zsmartsystems/zigbee/dongle/telegesis/ZigBeeDongleTelegesisTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/com.zsmartsystems.zigbee.console.telegesis/target/" />
     <ignored path="$PROJECT_DIR$/com.zsmartsystems.zigbee.console.ember/target/" />
@@ -416,7 +49,7 @@
       <file leaf-file-name="ZigBeeNetworkManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/ZigBeeNetworkManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
+            <state relative-caret-position="1054">
               <caret line="159" column="32" selection-start-line="159" selection-start-column="32" selection-end-line="159" selection-end-column="32" />
             </state>
           </provider>
@@ -426,25 +59,7 @@
         <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/ZigBeeNetworkStateSerializer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZigBeeTransportTransmit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/transport/ZigBeeTransportTransmit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="105" column="9" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZigbeeApplication.log" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZigbeeApplication.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="72" column="25" lean-forward="true" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+              <caret line="29" column="22" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -452,20 +67,11 @@
       <file leaf-file-name="ZigBeeDiscoveryExtension.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/app/discovery/ZigBeeDiscoveryExtension.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="113" column="16" selection-start-line="113" selection-start-column="16" selection-end-line="113" selection-end-column="16" />
+            <state relative-caret-position="424">
+              <caret line="118" column="16" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZigBeeNodeServiceDiscoverer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/app/discovery/ZigBeeNodeServiceDiscoverer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="672" column="16" selection-start-line="672" selection-start-column="16" selection-end-line="672" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -474,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.console.main/src/main/java/com/zsmartsystems/zigbee/console/main/ZigBeeConsole.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-25089">
-              <caret line="163" column="28" lean-forward="true" selection-start-line="163" selection-start-column="28" selection-end-line="163" selection-end-column="28" />
+              <caret line="163" column="28" selection-start-line="163" selection-start-column="28" selection-end-line="163" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -482,8 +88,27 @@
       <file leaf-file-name="EmberNcp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.ember/src/main/java/com/zsmartsystems/zigbee/dongle/ember/EmberNcp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="136" column="60" selection-start-line="136" selection-start-column="37" selection-end-line="136" selection-end-column="60" />
+            <state relative-caret-position="7">
+              <caret line="209" column="60" selection-start-line="209" selection-start-column="37" selection-end-line="209" selection-end-column="60" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#8581#8582#0" expanded="true" />
+                <element signature="e#8635#8636#0" expanded="true" />
+                <element signature="e#8856#8857#0" expanded="true" />
+                <element signature="e#8889#8890#0" expanded="true" />
+                <element signature="e#35354#35364#0" expanded="true" />
+                <element signature="e#37299#37309#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZigBeeProfileType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/ZigBeeProfileType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-385">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -500,8 +125,8 @@
       <file leaf-file-name="ZigBeeConsoleMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.console.main/src/main/java/com/zsmartsystems/zigbee/console/main/ZigBeeConsoleMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1850">
-              <caret line="180" column="14" lean-forward="true" selection-start-line="180" selection-start-column="14" selection-end-line="180" selection-end-column="14" />
+            <state relative-caret-position="-1055">
+              <caret line="182" column="14" selection-start-line="182" selection-start-column="14" selection-end-line="182" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -522,6 +147,7 @@
       <find>FRAME_ID</find>
       <find>frameId</find>
       <find>isTransactionMatch</find>
+      <find>getCurrentSecurityState</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -555,7 +181,16 @@
         <option value="$PROJECT_DIR$/com.zsmartsystems.zigbee.console/src/main/java/com/zsmartsystems/zigbee/console/ZigBeeConsoleUnbindCommand.java" />
         <option value="$PROJECT_DIR$/com.zsmartsystems.zigbee.console/src/main/java/com/zsmartsystems/zigbee/console/ZigBeeConsoleClearBindCommand.java" />
         <option value="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.ember/src/main/java/com/zsmartsystems/zigbee/dongle/ember/EmberNcp.java" />
+        <option value="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.ember/src/test/java/com/zsmartsystems/zigbee/dongle/ember/ZigBeeDongleEzspTest.java" />
+        <option value="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.telegesis/src/test/java/com/zsmartsystems/zigbee/dongle/telegesis/ZigBeeDongleTelegesisTest.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -596,37 +231,7 @@
             <path>
               <item name="zigbee" type="b2602c69:ProjectViewProjectNode" />
               <item name="com.zsmartsystems.zigbee" type="462c0819:PsiDirectoryNode" />
-              <item name="com.zsmartsystems.zigbee.console.main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zigbee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com.zsmartsystems.zigbee" type="462c0819:PsiDirectoryNode" />
-              <item name="com.zsmartsystems.zigbee.console.main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zigbee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com.zsmartsystems.zigbee" type="462c0819:PsiDirectoryNode" />
-              <item name="com.zsmartsystems.zigbee.console.main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zigbee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com.zsmartsystems.zigbee" type="462c0819:PsiDirectoryNode" />
-              <item name="com.zsmartsystems.zigbee.console.main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zigbee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com.zsmartsystems.zigbee" type="462c0819:PsiDirectoryNode" />
-              <item name="com.zsmartsystems.zigbee.console.main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="com.zsmartsystems.zigbee.dongle.ember" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -758,11 +363,11 @@
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32956383" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.50490195" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32736155" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.14529915" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.15912762" />
-      <window_info anchor="bottom" id="Find" order="5" visible="true" weight="0.20940171" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.33844912" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.20940171" />
       <window_info anchor="right" id="Gradle" order="1" weight="0.32956383" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -787,20 +392,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.cc2531/src/main/java/com/zsmartsystems/zigbee/dongle/cc2531/network/ZigBeeNetworkManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="305" column="32" lean-forward="true" selection-start-line="305" selection-start-column="32" selection-end-line="305" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.cc2531/src/main/java/com/zsmartsystems/zigbee/dongle/cc2531/network/CommandInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.cc2531/src/main/java/com/zsmartsystems/zigbee/dongle/cc2531/network/impl/CommandInterfaceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -980,13 +571,6 @@
         <state relative-caret-position="-1603" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/ZigBeeProfileType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/ZigBeeCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1064,7 +648,7 @@
     <entry file="file://$PROJECT_DIR$/ZigbeeApplication.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="72" column="25" lean-forward="true" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+          <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1078,14 +662,14 @@
     <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/app/discovery/ZigBeeNodeServiceDiscoverer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
-          <caret line="672" column="16" selection-start-line="672" selection-start-column="16" selection-end-line="672" selection-end-column="16" />
+          <caret line="680" column="16" selection-start-line="680" selection-start-column="16" selection-end-line="680" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/app/discovery/ZigBeeDiscoveryExtension.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="113" column="16" selection-start-line="113" selection-start-column="16" selection-end-line="113" selection-end-column="16" />
+        <state relative-caret-position="424">
+          <caret line="118" column="16" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -1101,7 +685,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/ZigBeeNetworkManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
+        <state relative-caret-position="1054">
           <caret line="159" column="32" selection-start-line="159" selection-start-column="32" selection-end-line="159" selection-end-column="32" />
         </state>
       </provider>
@@ -1109,7 +693,7 @@
     <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/ZigBeeNetworkStateSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="27" />
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1122,22 +706,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.console.main/src/main/java/com/zsmartsystems/zigbee/console/main/ZigBeeConsoleMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1850">
-          <caret line="180" column="14" lean-forward="true" selection-start-line="180" selection-start-column="14" selection-end-line="180" selection-end-column="14" />
+        <state relative-caret-position="-1055">
+          <caret line="182" column="14" selection-start-line="182" selection-start-column="14" selection-end-line="182" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.console.main/src/main/java/com/zsmartsystems/zigbee/console/main/ZigBeeConsole.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-25089">
-          <caret line="163" column="28" lean-forward="true" selection-start-line="163" selection-start-column="28" selection-end-line="163" selection-end-column="28" />
+          <caret line="163" column="28" selection-start-line="163" selection-start-column="28" selection-end-line="163" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/ZigBeeProfileType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-385">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.telegesis/src/test/java/com/zsmartsystems/zigbee/dongle/telegesis/ZigBeeDongleTelegesisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="218" column="76" selection-start-line="218" selection-start-column="76" selection-end-line="218" selection-end-column="76" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.ember/src/test/java/com/zsmartsystems/zigbee/dongle/ember/ZigBeeDongleEzspTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="233" column="76" selection-start-line="233" selection-start-column="76" selection-end-line="233" selection-end-column="76" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.ember/src/main/java/com/zsmartsystems/zigbee/dongle/ember/EmberNcp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="136" column="60" selection-start-line="136" selection-start-column="37" selection-end-line="136" selection-end-column="60" />
+        <state relative-caret-position="7">
+          <caret line="209" column="60" selection-start-line="209" selection-start-column="37" selection-end-line="209" selection-end-column="60" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#8581#8582#0" expanded="true" />
+            <element signature="e#8635#8636#0" expanded="true" />
+            <element signature="e#8856#8857#0" expanded="true" />
+            <element signature="e#8889#8890#0" expanded="true" />
+            <element signature="e#35354#35364#0" expanded="true" />
+            <element signature="e#37299#37309#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

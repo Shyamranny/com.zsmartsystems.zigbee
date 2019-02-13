@@ -216,7 +216,7 @@ public class ZigBeeDongleTelegesisTest {
 
         ZigBeeApsFrame apsFrame = new ZigBeeApsFrame();
         apsFrame.setCluster(0);
-        apsFrame.setProfile(ZigBeeProfileType.ZIGBEE_HOME_AUTOMATION.getKey());
+        apsFrame.setProfile(ZigBeeProfileType.ZIGBEE_HOME_AUTOMATION.getId());
         apsFrame.setAddressMode(ZigBeeNwkAddressMode.DEVICE);
         apsFrame.setDestinationAddress(1234);
         apsFrame.setApsCounter(1);
@@ -237,7 +237,7 @@ public class ZigBeeDongleTelegesisTest {
 
         ZigBeeApsFrame apsFrame = new ZigBeeApsFrame();
         apsFrame.setCluster(0);
-        apsFrame.setProfile(ZigBeeProfileType.ZIGBEE_HOME_AUTOMATION.getKey());
+        apsFrame.setProfile(ZigBeeProfileType.ZIGBEE_HOME_AUTOMATION.getId());
         apsFrame.setAddressMode(ZigBeeNwkAddressMode.DEVICE);
         apsFrame.setDestinationAddress(0xfff9);
         apsFrame.setApsCounter(1);
