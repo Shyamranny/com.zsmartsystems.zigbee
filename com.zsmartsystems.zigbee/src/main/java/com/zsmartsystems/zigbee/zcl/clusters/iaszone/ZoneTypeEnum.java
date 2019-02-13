@@ -19,7 +19,7 @@ import javax.annotation.Generated;
  *
  * @author Chris Jackson
  */
-@Generated(value = "com.zsmartsystems.zigbee.autocode.ZclProtocolCodeGenerator", date = "2018-05-09T17:59:58Z")
+@Generated(value = "com.zsmartsystems.zigbee.autocode.ZclProtocolCodeGenerator", date = "2019-01-03T23:00:09Z")
 public enum ZoneTypeEnum {
     STANDARD_CIE(0x0000),
     MOTION_SENSOR(0x000D),

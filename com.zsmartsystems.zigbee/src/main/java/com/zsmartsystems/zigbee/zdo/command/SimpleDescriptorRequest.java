@@ -27,7 +27,7 @@ import javax.annotation.Generated;
  * Code is auto-generated. Modifications may be overwritten!
  */
 
-@Generated(value = "com.zsmartsystems.zigbee.autocode.ZclProtocolCodeGenerator", date = "2018-10-24T19:39:59Z")
+@Generated(value = "com.zsmartsystems.zigbee.autocode.ZclProtocolCodeGenerator", date = "2019-01-03T23:00:09Z")
 public class SimpleDescriptorRequest extends ZdoRequest implements ZigBeeTransactionMatcher {
     /**
      * NWKAddrOfInterest command message field.

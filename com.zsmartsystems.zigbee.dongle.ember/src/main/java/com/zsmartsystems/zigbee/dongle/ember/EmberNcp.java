@@ -810,4 +810,9 @@ public class EmberNcp {
         EzspGetMfgTokenResponse response = (EzspGetMfgTokenResponse) transaction.getResponse();
         return response.getTokenData();
     }
+
+    private void clearBindTable(){
+        EzspClearBindingTableRequest ezspClearBindingTableRequest = new EzspClearBindingTableRequest();
+
+    }
 }

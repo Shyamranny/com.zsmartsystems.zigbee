@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="com.zsmartsystems.zigbee" />
+        <module name="com.zsmartsystems.zigbee.autocode" />
+        <module name="com.zsmartsystems.zigbee.console" />
+        <module name="com.zsmartsystems.zigbee.console.ember" />
+        <module name="com.zsmartsystems.zigbee.console.main" />
+        <module name="com.zsmartsystems.zigbee.console.telegesis" />
+        <module name="com.zsmartsystems.zigbee.dongle.cc2531" />
+        <module name="com.zsmartsystems.zigbee.dongle.conbee" />
+        <module name="com.zsmartsystems.zigbee.dongle.ember" />
+        <module name="com.zsmartsystems.zigbee.dongle.ember.autocode" />
+        <module name="com.zsmartsystems.zigbee.dongle.telegesis" />
+        <module name="com.zsmartsystems.zigbee.dongle.telegesis.autocode" />
+        <module name="com.zsmartsystems.zigbee.dongle.xbee" />
+        <module name="com.zsmartsystems.zigbee.dongle.xbee.autocode" />
+        <module name="com.zsmartsystems.zigbee.serial" />
+        <module name="com.zsmartsystems.zigbee.test" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

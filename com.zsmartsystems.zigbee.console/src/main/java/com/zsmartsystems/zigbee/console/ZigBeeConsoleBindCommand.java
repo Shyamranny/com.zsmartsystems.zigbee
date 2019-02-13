@@ -66,6 +66,7 @@ public class ZigBeeConsoleBindCommand extends ZigBeeConsoleAbstractCommand {
         } else {
             destAddress = networkManager.getNode(0).getIeeeAddress();
             destEndpoint = 1;
+
         }
 
         final CommandResult response = cluster.bind(destAddress, destEndpoint).get();

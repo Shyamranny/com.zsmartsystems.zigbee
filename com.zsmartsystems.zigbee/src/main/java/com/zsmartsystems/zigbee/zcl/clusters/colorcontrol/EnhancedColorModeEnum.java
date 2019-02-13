@@ -13,13 +13,13 @@ import java.util.Map;
 import javax.annotation.Generated;
 
 /**
- * Enumeration of Color control attribute EnhancedColorMode options.
+ * Enumeration of Color Control attribute EnhancedColorMode options.
  * <p>
  * Code is auto-generated. Modifications may be overwritten!
  *
  * @author Chris Jackson
  */
-@Generated(value = "com.zsmartsystems.zigbee.autocode.ZclProtocolCodeGenerator", date = "2018-03-31T12:00:43Z")
+@Generated(value = "com.zsmartsystems.zigbee.autocode.ZclProtocolCodeGenerator", date = "2019-01-03T23:00:09Z")
 public enum EnhancedColorModeEnum {
     CURRENTHUE_AND_CURRENTSATURATION(0x0000),
     CURRENTX_AND_CURRENTY(0x0001),

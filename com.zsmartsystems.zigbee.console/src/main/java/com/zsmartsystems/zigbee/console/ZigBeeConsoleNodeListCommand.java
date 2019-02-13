@@ -80,7 +80,7 @@ public class ZigBeeConsoleNodeListCommand extends ZigBeeConsoleAbstractCommand {
         for (ZigBeeEndpoint endpoint : endpoints) {
             boolean showManufacturerAndModel = endpoint.getParentNode().getNetworkAddress() != 0;
             String endpointInfo = String.format("%3d  %25s  %15s  %15s  %15s", endpoint.getEndpointId(),
-                    ZigBeeProfileType.getByValue(endpoint.getProfileId()),
+                    ZigBeeProfileType.getProfileType(endpoint.getProfileId()),
                     ZigBeeDeviceType.getByValue(endpoint.getDeviceId()),
                     showManufacturerAndModel ? getManufacturer(endpoint) : "",
                     showManufacturerAndModel ? getModel(endpoint) : "");
@@ -89,6 +89,7 @@ public class ZigBeeConsoleNodeListCommand extends ZigBeeConsoleAbstractCommand {
             out.println(tableLine);
 
             first = false;
+
         }
     }
 

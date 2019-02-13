@@ -28,7 +28,7 @@ import com.zsmartsystems.zigbee.zcl.field.ExtensionFieldSet;
  * <p>
  * Code is auto-generated. Modifications may be overwritten!
  */
-@Generated(value = "com.zsmartsystems.zigbee.autocode.ZclProtocolCodeGenerator", date = "2018-04-26T19:23:24Z")
+@Generated(value = "com.zsmartsystems.zigbee.autocode.ZclProtocolCodeGenerator", date = "2019-01-03T23:00:09Z")
 public class AddSceneCommand extends ZclCommand {
     /**
      * Group ID command message field.

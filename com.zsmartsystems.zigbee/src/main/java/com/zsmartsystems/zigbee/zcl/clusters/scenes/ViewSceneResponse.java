@@ -26,7 +26,7 @@ import com.zsmartsystems.zigbee.zcl.field.ExtensionFieldSet;
  * <p>
  * Code is auto-generated. Modifications may be overwritten!
  */
-@Generated(value = "com.zsmartsystems.zigbee.autocode.ZclProtocolCodeGenerator", date = "2018-04-13T17:16:42Z")
+@Generated(value = "com.zsmartsystems.zigbee.autocode.ZclProtocolCodeGenerator", date = "2019-01-03T23:00:09Z")
 public class ViewSceneResponse extends ZclCommand {
     /**
      * Status command message field.
