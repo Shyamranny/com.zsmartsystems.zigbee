@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99b9e63a-ab7c-4d5c-a7ed-0315c184d577" name="Default" comment="">
+    <list default="true" id="99b9e63a-ab7c-4d5c-a7ed-0315c184d577" name="Default" comment="small fix - scheduler start">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.ember/src/main/java/com/zsmartsystems/zigbee/dongle/ember/EmberNcp.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.ember/src/main/java/com/zsmartsystems/zigbee/dongle/ember/EmberNcp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.ember/src/test/java/com/zsmartsystems/zigbee/dongle/ember/ZigBeeDongleEzspTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.ember/src/test/java/com/zsmartsystems/zigbee/dongle/ember/ZigBeeDongleEzspTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.telegesis/src/test/java/com/zsmartsystems/zigbee/dongle/telegesis/ZigBeeDongleTelegesisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.telegesis/src/test/java/com/zsmartsystems/zigbee/dongle/telegesis/ZigBeeDongleTelegesisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/ZigBeeNetworkManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/ZigBeeNetworkManager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/com.zsmartsystems.zigbee.console.telegesis/target/" />
     <ignored path="$PROJECT_DIR$/com.zsmartsystems.zigbee.console.ember/target/" />
@@ -46,87 +44,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ZigBeeNetworkManager.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ZigBeeNetworkManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/ZigBeeNetworkManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="159" column="32" selection-start-line="159" selection-start-column="32" selection-end-line="159" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZigBeeNetworkStateSerializer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/ZigBeeNetworkStateSerializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="29" column="22" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZigBeeDiscoveryExtension.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/app/discovery/ZigBeeDiscoveryExtension.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="118" column="16" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZigBeeConsole.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.console.main/src/main/java/com/zsmartsystems/zigbee/console/main/ZigBeeConsole.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25089">
-              <caret line="163" column="28" selection-start-line="163" selection-start-column="28" selection-end-line="163" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmberNcp.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.ember/src/main/java/com/zsmartsystems/zigbee/dongle/ember/EmberNcp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7">
-              <caret line="209" column="60" selection-start-line="209" selection-start-column="37" selection-end-line="209" selection-end-column="60" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="imports" expanded="true" />
-                <element signature="e#8581#8582#0" expanded="true" />
-                <element signature="e#8635#8636#0" expanded="true" />
-                <element signature="e#8856#8857#0" expanded="true" />
-                <element signature="e#8889#8890#0" expanded="true" />
-                <element signature="e#35354#35364#0" expanded="true" />
-                <element signature="e#37299#37309#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZigBeeProfileType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/ZigBeeProfileType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-385">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZigBeeNetworkStateSerializerImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.console.main/src/main/java/com/zsmartsystems/zigbee/console/main/ZigBeeNetworkStateSerializerImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="123" column="75" selection-start-line="123" selection-start-column="75" selection-end-line="123" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZigBeeConsoleMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.console.main/src/main/java/com/zsmartsystems/zigbee/console/main/ZigBeeConsoleMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1055">
-              <caret line="182" column="14" selection-start-line="182" selection-start-column="14" selection-end-line="182" selection-end-column="14" />
+            <state relative-caret-position="141">
+              <caret line="295" column="38" selection-start-line="295" selection-start-column="38" selection-end-line="295" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -148,6 +70,12 @@
       <find>frameId</find>
       <find>isTransactionMatch</find>
       <find>getCurrentSecurityState</find>
+      <find>RADIO_TX_POWER</find>
+      <find>Transaction Com</find>
+      <find>XStream</find>
+      <find>is removed from the network</find>
+      <find>ZigBeeDiscoveryExtension</find>
+      <find>POWER_DESCRIPTOR</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -183,6 +111,10 @@
         <option value="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.ember/src/main/java/com/zsmartsystems/zigbee/dongle/ember/EmberNcp.java" />
         <option value="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.ember/src/test/java/com/zsmartsystems/zigbee/dongle/ember/ZigBeeDongleEzspTest.java" />
         <option value="$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.telegesis/src/test/java/com/zsmartsystems/zigbee/dongle/telegesis/ZigBeeDongleTelegesisTest.java" />
+        <option value="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/transaction/ZigBeeTransaction.java" />
+        <option value="$PROJECT_DIR$/com.zsmartsystems.zigbee.console.main/src/main/java/com/zsmartsystems/zigbee/console/main/IeeeAddressConverter.java" />
+        <option value="$PROJECT_DIR$/com.zsmartsystems.zigbee.console.main/src/main/java/com/zsmartsystems/zigbee/console/main/ZigBeeNetworkStateSerializerImpl.java" />
+        <option value="$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/ZigBeeNetworkManager.java" />
       </list>
     </option>
   </component>
@@ -210,9 +142,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="729" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -220,7 +151,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,17 +158,13 @@
               <item name="zigbee" type="b2602c69:ProjectViewProjectNode" />
               <item name="com.zsmartsystems.zigbee" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="zigbee" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com.zsmartsystems.zigbee" type="462c0819:PsiDirectoryNode" />
-              <item name="com.zsmartsystems.zigbee.dongle.ember" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="RecentsManager">
@@ -268,7 +194,7 @@
     <configuration name="ZigBeeConsoleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zsmartsystems.zigbee.console.main.ZigBeeConsoleMain" />
       <module name="com.zsmartsystems.zigbee.console.main" />
-      <option name="PROGRAM_PARAMETERS" value="-d EMBER -p /dev/tty.usbmodem000440077327 -b 57600" />
+      <option name="PROGRAM_PARAMETERS" value="-d EMBER -p /dev/tty.usbmodem000440076203 -b 57600" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -356,35 +282,39 @@
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info active="true" anchor="bottom" id="Messages" order="0" visible="true" weight="0.32905984" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32956383" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.116809115" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.50490195" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.14529915" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.66381764" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.33844912" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.20940171" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.37075928" />
       <window_info anchor="right" id="Gradle" order="1" weight="0.32956383" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.20163934" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="right" id="Commander" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.3295082" />
+      <window_info anchor="bottom" id="Find" order="5" visible="true" weight="0.20940171" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="small fix - scheduler start" />
+    <option name="LAST_COMMIT_MESSAGE" value="small fix - scheduler start" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -392,46 +322,17 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.cc2531/src/main/java/com/zsmartsystems/zigbee/dongle/cc2531/network/impl/CommandInterfaceImpl.java">
+    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/dao/ZigBeeNodeDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="106" column="22" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="22" />
+        <state relative-caret-position="165">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.console/src/main/java/com/zsmartsystems/zigbee/console/ZigBeeConsoleNodeListCommand.java">
+    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/app/discovery/ZigBeeNodeServiceDiscoverer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="77" column="56" selection-start-line="77" selection-start-column="56" selection-end-line="77" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.console/src/main/java/com/zsmartsystems/zigbee/console/ZigBeeConsoleDescribeEndpointCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="56" column="69" selection-start-line="56" selection-start-column="69" selection-end-line="56" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.console/src/main/java/com/zsmartsystems/zigbee/console/ZigBeeConsoleDescribeNodeCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="86" column="51" selection-start-line="86" selection-start-column="51" selection-end-line="86" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log4j.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EMBER-simple-network.xml" />
-    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.console/src/main/java/com/zsmartsystems/zigbee/console/ZigBeeConsoleAttributeSupportedCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="6360">
+          <caret line="424" column="62" selection-start-line="424" selection-start-column="60" selection-end-line="424" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -460,13 +361,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="63" column="48" lean-forward="true" selection-start-line="63" selection-start-column="48" selection-end-line="63" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/ZigBeeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="368" column="28" lean-forward="true" selection-start-line="368" selection-start-column="28" selection-end-line="368" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -606,13 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/transaction/ZigBeeTransaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="128" column="34" selection-start-line="128" selection-start-column="34" selection-end-line="128" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/transaction/ZigBeeTransactionManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="915">
@@ -659,62 +546,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/app/discovery/ZigBeeNodeServiceDiscoverer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="680" column="16" selection-start-line="680" selection-start-column="16" selection-end-line="680" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/app/discovery/ZigBeeDiscoveryExtension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="118" column="16" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/dao/ZigBeeNodeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-362">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/ZigBeeNetworkManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="159" column="32" selection-start-line="159" selection-start-column="32" selection-end-line="159" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/ZigBeeNetworkStateSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="29" column="22" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.console.main/src/main/java/com/zsmartsystems/zigbee/console/main/ZigBeeNetworkStateSerializerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="123" column="75" selection-start-line="123" selection-start-column="75" selection-end-line="123" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.console.main/src/main/java/com/zsmartsystems/zigbee/console/main/ZigBeeConsoleMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1055">
-          <caret line="182" column="14" selection-start-line="182" selection-start-column="14" selection-end-line="182" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.console.main/src/main/java/com/zsmartsystems/zigbee/console/main/ZigBeeConsole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25089">
-          <caret line="163" column="28" selection-start-line="163" selection-start-column="28" selection-end-line="163" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -729,9 +564,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="218" column="76" selection-start-line="218" selection-start-column="76" selection-end-line="218" selection-end-column="76" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -739,26 +571,123 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="233" column="76" selection-start-line="233" selection-start-column="76" selection-end-line="233" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.ember/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="23" lean-forward="true" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.ember/src/main/java/com/zsmartsystems/zigbee/dongle/ember/EmberNcp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-174">
+          <caret line="209" column="60" selection-start-line="209" selection-start-column="37" selection-end-line="209" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/app/discovery/ZigBeeNetworkDiscoverer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="388" column="17" selection-start-line="388" selection-start-column="17" selection-end-line="388" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/transaction/ZigBeeTransaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="163" column="9" selection-start-line="163" selection-start-column="9" selection-end-line="163" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/ZigBeeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1052">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/dao/ZigBeeNodeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.console.main/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1455">
+          <caret line="97" column="26" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.console.main/src/main/java/com/zsmartsystems/zigbee/console/main/KeyArrayConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.console.main/src/main/java/com/zsmartsystems/zigbee/console/main/IeeeAddressConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/app/discovery/ZigBeeNodeServiceDiscoverer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="448" column="51" lean-forward="true" selection-start-line="448" selection-start-column="51" selection-end-line="448" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/app/discovery/ZigBeeDiscoveryExtension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="244" column="32" selection-start-line="244" selection-start-column="32" selection-end-line="244" selection-end-column="32" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.dongle.ember/src/main/java/com/zsmartsystems/zigbee/dongle/ember/EmberNcp.java">
+    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.console.main/src/main/java/com/zsmartsystems/zigbee/console/main/ZigBeeConsole.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="209" column="60" selection-start-line="209" selection-start-column="37" selection-end-line="209" selection-end-column="60" />
+        <state relative-caret-position="15">
+          <caret line="143" column="22" selection-start-line="143" selection-start-column="22" selection-end-line="143" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.console.main/src/main/java/com/zsmartsystems/zigbee/console/main/ZigBeeNetworkStateSerializerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="139" column="47" selection-start-line="139" selection-start-column="38" selection-end-line="139" selection-end-column="47" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#8581#8582#0" expanded="true" />
-            <element signature="e#8635#8636#0" expanded="true" />
-            <element signature="e#8856#8857#0" expanded="true" />
-            <element signature="e#8889#8890#0" expanded="true" />
-            <element signature="e#35354#35364#0" expanded="true" />
-            <element signature="e#37299#37309#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee.console.main/src/main/java/com/zsmartsystems/zigbee/console/main/ZigBeeConsoleMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3840">
+          <caret line="309" column="47" selection-start-line="309" selection-start-column="47" selection-end-line="309" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.zsmartsystems.zigbee/src/main/java/com/zsmartsystems/zigbee/ZigBeeNetworkManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="295" column="38" selection-start-line="295" selection-start-column="38" selection-end-line="295" selection-end-column="38" />
         </state>
       </provider>
     </entry>

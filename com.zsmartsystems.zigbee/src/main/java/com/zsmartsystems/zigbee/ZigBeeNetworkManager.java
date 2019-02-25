@@ -600,6 +600,7 @@ public class ZigBeeNetworkManager implements ZigBeeNetwork, ZigBeeTransportRecei
         if (period == 0) {
             return executorService.schedule(runnableTask, initialDelay, TimeUnit.MILLISECONDS);
         } else {
+
             return executorService.scheduleAtFixedRate(runnableTask, initialDelay, period, TimeUnit.MILLISECONDS);
         }
     }
