@@ -10,6 +10,8 @@ package com.zsmartsystems.zigbee.zcl;
 import com.zsmartsystems.zigbee.ZigBeeCommand;
 import com.zsmartsystems.zigbee.zcl.protocol.ZclClusterType;
 import com.zsmartsystems.zigbee.zcl.protocol.ZclCommandDirection;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Base class for value object classes holding ZCL commands, extended from {@link ZigBeeCommand}.
@@ -19,6 +21,7 @@ import com.zsmartsystems.zigbee.zcl.protocol.ZclCommandDirection;
  */
 public abstract class ZclCommand extends ZigBeeCommand {
 
+    private final Logger logger = LoggerFactory.getLogger(ZclCommand.class);
     /**
      * True if this is a generic command
      */
@@ -89,8 +92,13 @@ public abstract class ZclCommand extends ZigBeeCommand {
     @Override
     public String toString() {
         Integer resolvedClusterId = getClusterId();
+        ZclClusterType zclClusterType = ZclClusterType.getValueById(resolvedClusterId);
+        if (null == zclClusterType){
+            logger.warn("zclClusterType is null for resolvedClusterId:" + resolvedClusterId);
+            return super.toString();
+        }
         final StringBuilder builder = new StringBuilder();
-        builder.append(ZclClusterType.getValueById(resolvedClusterId).getLabel());
+        builder.append(zclClusterType.getLabel());
         builder.append(": ");
         builder.append(super.toString());
         return builder.toString();
