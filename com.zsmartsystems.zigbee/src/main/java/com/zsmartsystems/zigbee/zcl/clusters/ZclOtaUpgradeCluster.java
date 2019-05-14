@@ -10,6 +10,7 @@ package com.zsmartsystems.zigbee.zcl.clusters;
 import com.zsmartsystems.zigbee.CommandResult;
 import com.zsmartsystems.zigbee.IeeeAddress;
 import com.zsmartsystems.zigbee.ZigBeeEndpoint;
+import com.zsmartsystems.zigbee.internal.Util;
 import com.zsmartsystems.zigbee.zcl.ZclAttribute;
 import com.zsmartsystems.zigbee.zcl.ZclCluster;
 import com.zsmartsystems.zigbee.zcl.ZclCommand;
@@ -253,10 +254,10 @@ public class ZclOtaUpgradeCluster extends ZclCluster {
      */
     public Integer getFileOffset(final long refreshPeriod) {
         if (attributes.get(ATTR_FILEOFFSET).isLastValueCurrent(refreshPeriod)) {
-            return (Integer) attributes.get(ATTR_FILEOFFSET).getLastValue();
+            return Util.readInteger(attributes.get(ATTR_FILEOFFSET).getLastValue());
         }
 
-        return (Integer) readSync(attributes.get(ATTR_FILEOFFSET));
+        return Util.readInteger(readSync(attributes.get(ATTR_FILEOFFSET)));
     }
 
     /**
@@ -297,10 +298,10 @@ public class ZclOtaUpgradeCluster extends ZclCluster {
      */
     public Integer getCurrentFileVersion(final long refreshPeriod) {
         if (attributes.get(ATTR_CURRENTFILEVERSION).isLastValueCurrent(refreshPeriod)) {
-            return (Integer) attributes.get(ATTR_CURRENTFILEVERSION).getLastValue();
+            return Util.readInteger(attributes.get(ATTR_CURRENTFILEVERSION).getLastValue());
         }
 
-        return (Integer) readSync(attributes.get(ATTR_CURRENTFILEVERSION));
+        return Util.readInteger(readSync(attributes.get(ATTR_CURRENTFILEVERSION)));
     }
 
     /**
@@ -341,10 +342,10 @@ public class ZclOtaUpgradeCluster extends ZclCluster {
      */
     public Integer getCurrentZigBeeStackVersion(final long refreshPeriod) {
         if (attributes.get(ATTR_CURRENTZIGBEESTACKVERSION).isLastValueCurrent(refreshPeriod)) {
-            return (Integer) attributes.get(ATTR_CURRENTZIGBEESTACKVERSION).getLastValue();
+            return Util.readInteger(attributes.get(ATTR_CURRENTZIGBEESTACKVERSION).getLastValue());
         }
 
-        return (Integer) readSync(attributes.get(ATTR_CURRENTZIGBEESTACKVERSION));
+        return Util.readInteger(readSync(attributes.get(ATTR_CURRENTZIGBEESTACKVERSION)));
     }
 
     /**
@@ -389,10 +390,10 @@ public class ZclOtaUpgradeCluster extends ZclCluster {
      */
     public Integer getDownloadedFileVersion(final long refreshPeriod) {
         if (attributes.get(ATTR_DOWNLOADEDFILEVERSION).isLastValueCurrent(refreshPeriod)) {
-            return (Integer) attributes.get(ATTR_DOWNLOADEDFILEVERSION).getLastValue();
+            return Util.readInteger(attributes.get(ATTR_DOWNLOADEDFILEVERSION).getLastValue());
         }
 
-        return (Integer) readSync(attributes.get(ATTR_DOWNLOADEDFILEVERSION));
+        return Util.readInteger(readSync(attributes.get(ATTR_DOWNLOADEDFILEVERSION)));
     }
 
     /**
@@ -437,10 +438,10 @@ public class ZclOtaUpgradeCluster extends ZclCluster {
      */
     public Integer getDownloadedZigBeeStackVersion(final long refreshPeriod) {
         if (attributes.get(ATTR_DOWNLOADEDZIGBEESTACKVERSION).isLastValueCurrent(refreshPeriod)) {
-            return (Integer) attributes.get(ATTR_DOWNLOADEDZIGBEESTACKVERSION).getLastValue();
+            return Util.readInteger(attributes.get(ATTR_DOWNLOADEDZIGBEESTACKVERSION).getLastValue());
         }
 
-        return (Integer) readSync(attributes.get(ATTR_DOWNLOADEDZIGBEESTACKVERSION));
+        return Util.readInteger(readSync(attributes.get(ATTR_DOWNLOADEDZIGBEESTACKVERSION)));
     }
 
     /**
@@ -487,10 +488,10 @@ public class ZclOtaUpgradeCluster extends ZclCluster {
      */
     public Integer getImageUpgradeStatus(final long refreshPeriod) {
         if (attributes.get(ATTR_IMAGEUPGRADESTATUS).isLastValueCurrent(refreshPeriod)) {
-            return (Integer) attributes.get(ATTR_IMAGEUPGRADESTATUS).getLastValue();
+            return Util.readInteger(attributes.get(ATTR_IMAGEUPGRADESTATUS).getLastValue());
         }
 
-        return (Integer) readSync(attributes.get(ATTR_IMAGEUPGRADESTATUS));
+        return Util.readInteger(readSync(attributes.get(ATTR_IMAGEUPGRADESTATUS)));
     }
 
     /**
@@ -525,10 +526,10 @@ public class ZclOtaUpgradeCluster extends ZclCluster {
      */
     public Integer getManufacturerId(final long refreshPeriod) {
         if (attributes.get(ATTR_MANUFACTURERID).isLastValueCurrent(refreshPeriod)) {
-            return (Integer) attributes.get(ATTR_MANUFACTURERID).getLastValue();
+            return Util.readInteger(attributes.get(ATTR_MANUFACTURERID).getLastValue());
         }
 
-        return (Integer) readSync(attributes.get(ATTR_MANUFACTURERID));
+        return Util.readInteger(readSync(attributes.get(ATTR_MANUFACTURERID)));
     }
 
     /**
@@ -563,10 +564,10 @@ public class ZclOtaUpgradeCluster extends ZclCluster {
      */
     public Integer getImageTypeId(final long refreshPeriod) {
         if (attributes.get(ATTR_IMAGETYPEID).isLastValueCurrent(refreshPeriod)) {
-            return (Integer) attributes.get(ATTR_IMAGETYPEID).getLastValue();
+            return Util.readInteger(attributes.get(ATTR_IMAGETYPEID).getLastValue());
         }
 
-        return (Integer) readSync(attributes.get(ATTR_IMAGETYPEID));
+        return Util.readInteger(readSync(attributes.get(ATTR_IMAGETYPEID)));
     }
 
     /**
@@ -619,10 +620,10 @@ public class ZclOtaUpgradeCluster extends ZclCluster {
      */
     public Integer getMinimumBlockRequestDelay(final long refreshPeriod) {
         if (attributes.get(ATTR_MINIMUMBLOCKREQUESTDELAY).isLastValueCurrent(refreshPeriod)) {
-            return (Integer) attributes.get(ATTR_MINIMUMBLOCKREQUESTDELAY).getLastValue();
+            return Util.readInteger(attributes.get(ATTR_MINIMUMBLOCKREQUESTDELAY).getLastValue());
         }
 
-        return (Integer) readSync(attributes.get(ATTR_MINIMUMBLOCKREQUESTDELAY));
+        return Util.readInteger(readSync(attributes.get(ATTR_MINIMUMBLOCKREQUESTDELAY)));
     }
 
     /**
@@ -657,10 +658,10 @@ public class ZclOtaUpgradeCluster extends ZclCluster {
      */
     public Integer getImageStamp(final long refreshPeriod) {
         if (attributes.get(ATTR_IMAGESTAMP).isLastValueCurrent(refreshPeriod)) {
-            return (Integer) attributes.get(ATTR_IMAGESTAMP).getLastValue();
+            return Util.readInteger(attributes.get(ATTR_IMAGESTAMP).getLastValue());
         }
 
-        return (Integer) readSync(attributes.get(ATTR_IMAGESTAMP));
+        return Util.readInteger(readSync(attributes.get(ATTR_IMAGESTAMP)));
     }
 
     /**

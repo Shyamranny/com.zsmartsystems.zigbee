@@ -21,6 +21,7 @@ import java.util.concurrent.Future;
 import java.util.concurrent.FutureTask;
 import java.util.concurrent.RunnableFuture;
 
+import com.zsmartsystems.zigbee.zdo.ZdoStatus;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -392,6 +393,7 @@ public class ZigBeeNode implements ZigBeeCommandListener {
         new Thread(future).start();
         return future;
     }
+
 
     /**
      * Gets the a {@link Collection} of {@link ZigBeeEndpoint}s this node provides

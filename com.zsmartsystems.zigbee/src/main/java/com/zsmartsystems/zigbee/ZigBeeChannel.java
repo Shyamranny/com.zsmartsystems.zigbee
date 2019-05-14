@@ -79,8 +79,8 @@ public enum ZigBeeChannel {
     CHANNEL_22(22, 0x00400000),
     CHANNEL_23(23, 0x00800000),
     CHANNEL_24(24, 0x01000000),
-    CHANNEL_25(25, 0x02000000),
-    CHANNEL_26(26, 0x04000000);
+    CHANNEL_25(25, 0x02000000);
+    //CHANNEL_26(26, 0x04000000); - removed because of the issue of SANCC
 
     /**
      * A mapping between the integer code and its corresponding type to

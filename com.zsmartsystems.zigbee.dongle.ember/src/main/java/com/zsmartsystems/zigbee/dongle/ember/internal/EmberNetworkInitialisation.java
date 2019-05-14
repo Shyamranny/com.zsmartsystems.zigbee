@@ -216,6 +216,11 @@ public class EmberNetworkInitialisation {
         int lowestRSSI = 999;
         int lowestChannel = 11;
         for (EzspEnergyScanResultHandler channel : channels) {
+            // we don't need channel 26
+            if (26 == channel.getChannel()){
+                continue;
+            }
+
             if (channel.getMaxRssiValue() < lowestRSSI) {
                 lowestRSSI = channel.getMaxRssiValue();
                 lowestChannel = channel.getChannel();
