@@ -14,9 +14,18 @@ import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
 
 import java.lang.reflect.Field;
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Future;
 
+import com.zsmartsystems.zigbee.transaction.ZigBeeTransactionFuture;
+import com.zsmartsystems.zigbee.transaction.ZigBeeTransactionMatcher;
+import com.zsmartsystems.zigbee.zdo.ZdoCommandType;
+import com.zsmartsystems.zigbee.zdo.ZdoStatus;
+import com.zsmartsystems.zigbee.zdo.command.ManagementBindResponse;
 import org.junit.Test;
 import org.mockito.ArgumentMatchers;
 import org.mockito.Mockito;
@@ -34,6 +43,8 @@ import com.zsmartsystems.zigbee.zdo.field.PowerDescriptor.PowerLevelType;
 import com.zsmartsystems.zigbee.zdo.field.PowerDescriptor.PowerSourceType;
 import com.zsmartsystems.zigbee.zdo.field.RoutingTable;
 import com.zsmartsystems.zigbee.zdo.field.RoutingTable.DiscoveryState;
+import org.mockito.invocation.InvocationOnMock;
+import org.mockito.stubbing.Answer;
 
 public class ZigBeeNodeTest {
     static final int TIMEOUT = 5000;
@@ -465,5 +476,37 @@ public class ZigBeeNodeTest {
         assertTrue(node.setNodeState(ZigBeeNodeState.OFFLINE));
         assertFalse(node.setNodeState(ZigBeeNodeState.OFFLINE));
         assertEquals(ZigBeeNodeState.OFFLINE, node.getNodeState());
+    }
+
+
+    @Test
+    public void updateBindingTable() throws InterruptedException, ExecutionException {
+        ZigBeeNetworkManager networkManager = Mockito.mock(ZigBeeNetworkManager.class);
+        Map<Integer, ZigBeeCommand> responses = new HashMap<>();
+
+        Mockito.doAnswer(new Answer<Future<CommandResult>>() {
+            @Override
+            public Future<CommandResult> answer(InvocationOnMock invocation) {
+                ZigBeeCommand command = (ZigBeeCommand) invocation.getArguments()[0];
+
+                ZigBeeTransactionFuture commandFuture = new ZigBeeTransactionFuture();
+                CommandResult result = new CommandResult(responses.get(command.getClusterId()));
+                commandFuture.set(result);
+                return commandFuture;
+            }
+        }).when(networkManager).sendTransaction(ArgumentMatchers.any(ZigBeeCommand.class),
+                ArgumentMatchers.any(ZigBeeTransactionMatcher.class));
+
+        ZigBeeNode node = new ZigBeeNode(networkManager, new IeeeAddress("1234567890"));
+        node.setNetworkAddress(1);
+
+        ManagementBindResponse nodeResponse = new ManagementBindResponse();
+        nodeResponse.setStatus(ZdoStatus.NOT_SUPPORTED);
+        nodeResponse.setSourceAddress(new ZigBeeEndpointAddress(123));
+        nodeResponse.setDestinationAddress(new ZigBeeEndpointAddress(0));
+        responses.put(ZdoCommandType.MANAGEMENT_BIND_REQUEST.getClusterId(), nodeResponse);
+
+        Future<ZigBeeStatus> future = node.updateBindingTable();
+        assertEquals(ZigBeeStatus.UNSUPPORTED, future.get());
     }
 }
