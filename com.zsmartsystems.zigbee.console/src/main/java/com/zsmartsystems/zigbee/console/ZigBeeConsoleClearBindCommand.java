@@ -13,6 +13,7 @@ import com.zsmartsystems.zigbee.ZigBeeCommand;
 import com.zsmartsystems.zigbee.ZigBeeEndpoint;
 import com.zsmartsystems.zigbee.ZigBeeNetworkManager;
 import com.zsmartsystems.zigbee.ZigBeeNode;
+import com.zsmartsystems.zigbee.ZigBeeStatus;
 import com.zsmartsystems.zigbee.zcl.ZclCluster;
 import com.zsmartsystems.zigbee.zcl.protocol.ZclClusterType;
 import com.zsmartsystems.zigbee.zdo.field.BindingTable;
@@ -60,9 +61,9 @@ public class ZigBeeConsoleClearBindCommand extends ZigBeeConsoleAbstractCommand 
 
         node.sendTransaction(zigBeeCommand);
 
+        final ZigBeeStatus result = node.updateBindingTable().get();
 
-        final Boolean result = node.updateBindingTable().get();
-        if (!result) {
+        if (ZigBeeStatus.SUCCESS != result) {
             out.println("Binding table read error");
             return;
         }

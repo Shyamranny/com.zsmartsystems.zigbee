@@ -42,6 +42,8 @@ public enum ZclDataType {
     N_X_ATTRIBUTE_INFORMATION("N X Attribute information", AttributeInformation.class, 0x00, false),
     N_X_ATTRIBUTE_RECORD("N X Attribute record", AttributeRecord.class, 0x00, false),
     N_X_ATTRIBUTE_REPORT("N X Attribute report", AttributeReport.class, 0x00, false),
+    N_X_ATTRIBUTE_REPORTING_STATUS_RECORD("N X Attribute reporting configuration record",
+            AttributeReportingStatusRecord.class, 0x00, false),
     N_X_ATTRIBUTE_REPORTING_CONFIGURATION_RECORD("N X Attribute reporting configuration record", AttributeReportingConfigurationRecord.class, 0x00, false),
     N_X_ATTRIBUTE_SELECTOR("N X Attribute selector", Object.class, 0x00, false),
     N_X_ATTRIBUTE_STATUS_RECORD("N X Attribute status record", AttributeStatusRecord.class, 0x00, false),

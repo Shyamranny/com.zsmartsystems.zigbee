@@ -12,11 +12,11 @@ import javax.annotation.Generated;
 import com.zsmartsystems.zigbee.zcl.ZclCommand;
 import com.zsmartsystems.zigbee.zcl.ZclFieldSerializer;
 import com.zsmartsystems.zigbee.zcl.ZclFieldDeserializer;
+import com.zsmartsystems.zigbee.zcl.field.AttributeReportingStatusRecord;
 import com.zsmartsystems.zigbee.zcl.protocol.ZclDataType;
 import com.zsmartsystems.zigbee.zcl.protocol.ZclCommandDirection;
 
 import java.util.List;
-import com.zsmartsystems.zigbee.zcl.field.AttributeReportingConfigurationRecord;
 
 /**
  * Read Reporting Configuration Response value object class.
@@ -34,7 +34,7 @@ public class ReadReportingConfigurationResponse extends ZclCommand {
     /**
      * Records command message field.
      */
-    private List<AttributeReportingConfigurationRecord> records;
+    private List<AttributeReportingStatusRecord> records;
 
     /**
      * Default constructor.
@@ -63,7 +63,7 @@ public class ReadReportingConfigurationResponse extends ZclCommand {
      *
      * @return the Records
      */
-    public List<AttributeReportingConfigurationRecord> getRecords() {
+    public List<AttributeReportingStatusRecord> getRecords() {
         return records;
     }
 
@@ -72,18 +72,18 @@ public class ReadReportingConfigurationResponse extends ZclCommand {
      *
      * @param records the Records
      */
-    public void setRecords(final List<AttributeReportingConfigurationRecord> records) {
+    public void setRecords(final List<AttributeReportingStatusRecord> records) {
         this.records = records;
     }
 
     @Override
     public void serialize(final ZclFieldSerializer serializer) {
-        serializer.serialize(records, ZclDataType.N_X_ATTRIBUTE_REPORTING_CONFIGURATION_RECORD);
+        serializer.serialize(records, ZclDataType.N_X_ATTRIBUTE_REPORTING_STATUS_RECORD);
     }
 
     @Override
     public void deserialize(final ZclFieldDeserializer deserializer) {
-        records = (List<AttributeReportingConfigurationRecord>) deserializer.deserialize(ZclDataType.N_X_ATTRIBUTE_REPORTING_CONFIGURATION_RECORD);
+        records = (List<AttributeReportingStatusRecord>) deserializer.deserialize(ZclDataType.N_X_ATTRIBUTE_REPORTING_STATUS_RECORD);
     }
 
     @Override

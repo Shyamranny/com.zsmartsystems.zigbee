@@ -40,16 +40,18 @@ import com.zsmartsystems.zigbee.zcl.field.AttributeInformation;
 import com.zsmartsystems.zigbee.zcl.field.AttributeRecord;
 import com.zsmartsystems.zigbee.zcl.field.AttributeReport;
 import com.zsmartsystems.zigbee.zcl.field.AttributeReportingConfigurationRecord;
+import com.zsmartsystems.zigbee.zcl.field.AttributeReportingStatusRecord;
 import com.zsmartsystems.zigbee.zcl.field.AttributeStatusRecord;
 import com.zsmartsystems.zigbee.zcl.field.ExtendedAttributeInformation;
 import com.zsmartsystems.zigbee.zcl.field.ReadAttributeStatusRecord;
 import com.zsmartsystems.zigbee.zcl.field.WriteAttributeRecord;
 import com.zsmartsystems.zigbee.zcl.field.WriteAttributeStatusRecord;
+
+import javax.annotation.Generated;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.Future;
-import javax.annotation.Generated;
 
 /**
  * <b>General</b> cluster implementation (<i>Cluster ID 0xFFFF</i>).
@@ -278,7 +280,7 @@ public class ZclGeneralCluster extends ZclCluster {
      * @param records {@link List<AttributeReportingConfigurationRecord>} Records
      * @return the {@link Future<CommandResult>} command result future
      */
-    public Future<CommandResult> readReportingConfigurationResponse(List<AttributeReportingConfigurationRecord> records) {
+    public Future<CommandResult> readReportingConfigurationResponse(List<AttributeReportingStatusRecord> records) {
         ReadReportingConfigurationResponse command = new ReadReportingConfigurationResponse();
 
         // Set the fields
