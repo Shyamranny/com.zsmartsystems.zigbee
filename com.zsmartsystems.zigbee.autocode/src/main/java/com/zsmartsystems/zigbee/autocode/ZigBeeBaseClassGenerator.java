@@ -292,7 +292,7 @@ public abstract class ZigBeeBaseClassGenerator {
 
         BufferedReader br;
         try {
-            br = new BufferedReader(new FileReader("../pom.xml"));
+            br = new BufferedReader(new FileReader("./pom.xml"));
             String line = br.readLine();
             while (line != null) {
                 if (line.contains("<license.year>") && line.contains("</license.year>")) {
@@ -304,7 +304,7 @@ public abstract class ZigBeeBaseClassGenerator {
 
             br.close();
 
-            br = new BufferedReader(new FileReader("../src/etc/header.txt"));
+            br = new BufferedReader(new FileReader("./src/etc/header.txt"));
             line = br.readLine();
 
             out.println("/**");

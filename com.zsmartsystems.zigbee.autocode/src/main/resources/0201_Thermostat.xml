@@ -176,6 +176,9 @@
     <attribute code="0x001E" type="ENUMERATION_8_BIT" side="server" optional="true" writable="false" reportable="false">
         <name>Thermostat Running Mode</name>
     </attribute>
+    <attribute code="0xF01C" type="ENUMERATION_8_BIT" side="server" optional="true" writable="false" reportable="true">
+        <name>Telkonet HVAC Running Mode</name>
+    </attribute>
 
     <constant type="BITMAP_8_BIT" class="DayOfWeekBitmap">
         <name>Day Of Week</name>

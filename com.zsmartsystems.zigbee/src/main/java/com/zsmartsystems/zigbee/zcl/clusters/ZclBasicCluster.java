@@ -15,6 +15,7 @@ import javax.annotation.Generated;
 
 import com.zsmartsystems.zigbee.CommandResult;
 import com.zsmartsystems.zigbee.ZigBeeEndpoint;
+import com.zsmartsystems.zigbee.internal.Util;
 import com.zsmartsystems.zigbee.zcl.ZclAttribute;
 import com.zsmartsystems.zigbee.zcl.ZclCluster;
 import com.zsmartsystems.zigbee.zcl.ZclCommand;
@@ -221,10 +222,10 @@ public class ZclBasicCluster extends ZclCluster {
     @Deprecated
     public Integer getZclVersion(final long refreshPeriod) {
         if (serverAttributes.get(ATTR_ZCLVERSION).isLastValueCurrent(refreshPeriod)) {
-            return (Integer) serverAttributes.get(ATTR_ZCLVERSION).getLastValue();
+            return Util.readInteger(serverAttributes.get(ATTR_ZCLVERSION).getLastValue());
         }
 
-        return (Integer) readSync(serverAttributes.get(ATTR_ZCLVERSION));
+        return Util.readInteger(readSync(serverAttributes.get(ATTR_ZCLVERSION)));
     }
 
     /**
@@ -292,10 +293,10 @@ public class ZclBasicCluster extends ZclCluster {
     @Deprecated
     public Integer getApplicationVersion(final long refreshPeriod) {
         if (serverAttributes.get(ATTR_APPLICATIONVERSION).isLastValueCurrent(refreshPeriod)) {
-            return (Integer) serverAttributes.get(ATTR_APPLICATIONVERSION).getLastValue();
+            return Util.readInteger(serverAttributes.get(ATTR_APPLICATIONVERSION).getLastValue());
         }
 
-        return (Integer) readSync(serverAttributes.get(ATTR_APPLICATIONVERSION));
+        return Util.readInteger(readSync(serverAttributes.get(ATTR_APPLICATIONVERSION)));
     }
 
     /**
@@ -364,10 +365,10 @@ public class ZclBasicCluster extends ZclCluster {
     @Deprecated
     public Integer getStackVersion(final long refreshPeriod) {
         if (serverAttributes.get(ATTR_STACKVERSION).isLastValueCurrent(refreshPeriod)) {
-            return (Integer) serverAttributes.get(ATTR_STACKVERSION).getLastValue();
+            return Util.readInteger(serverAttributes.get(ATTR_STACKVERSION).getLastValue());
         }
 
-        return (Integer) readSync(serverAttributes.get(ATTR_STACKVERSION));
+        return Util.readInteger(readSync(serverAttributes.get(ATTR_STACKVERSION)));
     }
 
     /**
@@ -434,10 +435,10 @@ public class ZclBasicCluster extends ZclCluster {
     @Deprecated
     public Integer getHwVersion(final long refreshPeriod) {
         if (serverAttributes.get(ATTR_HWVERSION).isLastValueCurrent(refreshPeriod)) {
-            return (Integer) serverAttributes.get(ATTR_HWVERSION).getLastValue();
+            return Util.readInteger(serverAttributes.get(ATTR_HWVERSION).getLastValue());
         }
 
-        return (Integer) readSync(serverAttributes.get(ATTR_HWVERSION));
+        return Util.readInteger(readSync(serverAttributes.get(ATTR_HWVERSION)));
     }
 
     /**
@@ -717,10 +718,10 @@ public class ZclBasicCluster extends ZclCluster {
     @Deprecated
     public Integer getPowerSource(final long refreshPeriod) {
         if (serverAttributes.get(ATTR_POWERSOURCE).isLastValueCurrent(refreshPeriod)) {
-            return (Integer) serverAttributes.get(ATTR_POWERSOURCE).getLastValue();
+            return Util.readInteger(serverAttributes.get(ATTR_POWERSOURCE).getLastValue());
         }
 
-        return (Integer) readSync(serverAttributes.get(ATTR_POWERSOURCE));
+        return Util.readInteger(readSync(serverAttributes.get(ATTR_POWERSOURCE)));
     }
 
     /**
@@ -1061,10 +1062,10 @@ public class ZclBasicCluster extends ZclCluster {
     @Deprecated
     public Integer getPhysicalEnvironment(final long refreshPeriod) {
         if (serverAttributes.get(ATTR_PHYSICALENVIRONMENT).isLastValueCurrent(refreshPeriod)) {
-            return (Integer) serverAttributes.get(ATTR_PHYSICALENVIRONMENT).getLastValue();
+            return Util.readInteger(serverAttributes.get(ATTR_PHYSICALENVIRONMENT).getLastValue());
         }
 
-        return (Integer) readSync(serverAttributes.get(ATTR_PHYSICALENVIRONMENT));
+        return Util.readInteger(readSync(serverAttributes.get(ATTR_PHYSICALENVIRONMENT)));
     }
 
     /**
@@ -1235,10 +1236,10 @@ public class ZclBasicCluster extends ZclCluster {
     @Deprecated
     public Integer getAlarmMask(final long refreshPeriod) {
         if (serverAttributes.get(ATTR_ALARMMASK).isLastValueCurrent(refreshPeriod)) {
-            return (Integer) serverAttributes.get(ATTR_ALARMMASK).getLastValue();
+            return Util.readInteger(serverAttributes.get(ATTR_ALARMMASK).getLastValue());
         }
 
-        return (Integer) readSync(serverAttributes.get(ATTR_ALARMMASK));
+        return Util.readInteger(readSync(serverAttributes.get(ATTR_ALARMMASK)));
     }
 
     /**
@@ -1334,10 +1335,10 @@ public class ZclBasicCluster extends ZclCluster {
     @Deprecated
     public Integer getDisableLocalConfig(final long refreshPeriod) {
         if (serverAttributes.get(ATTR_DISABLELOCALCONFIG).isLastValueCurrent(refreshPeriod)) {
-            return (Integer) serverAttributes.get(ATTR_DISABLELOCALCONFIG).getLastValue();
+            return Util.readInteger(serverAttributes.get(ATTR_DISABLELOCALCONFIG).getLastValue());
         }
 
-        return (Integer) readSync(serverAttributes.get(ATTR_DISABLELOCALCONFIG));
+        return Util.readInteger(readSync(serverAttributes.get(ATTR_DISABLELOCALCONFIG)));
     }
 
     /**

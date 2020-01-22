@@ -35,7 +35,7 @@ public class ZigBeeCodeGenerator {
 
     public static void main(final String[] args) {
         String sourceRootPath = "target/src/main/java/";
-        String outRootPath = "../com.zsmartsystems.zigbee/src/main/java/";
+        String outRootPath = "./com.zsmartsystems.zigbee/src/main/java/";
 
         deleteRecursive(new File(sourceRootPath));
 
@@ -44,66 +44,66 @@ public class ZigBeeCodeGenerator {
         String generatedDate = dateFormat.format(new Date());
 
         ZigBeeXmlParser zclParser = new ZigBeeXmlParser();
-        zclParser.addFile("src/main/resources/XXXX_General.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/XXXX_General.xml");
 
-        zclParser.addFile("src/main/resources/0000_Basic.xml");
-        zclParser.addFile("src/main/resources/0001_PowerConfiguration.xml");
-        zclParser.addFile("src/main/resources/0003_Identify.xml");
-        zclParser.addFile("src/main/resources/0004_Groups.xml");
-        zclParser.addFile("src/main/resources/0005_Scenes.xml");
-        zclParser.addFile("src/main/resources/0006_OnOff.xml");
-        zclParser.addFile("src/main/resources/0007_OnOffSwitchConfiguration.xml");
-        zclParser.addFile("src/main/resources/0008_LevelControl.xml");
-        zclParser.addFile("src/main/resources/0009_Alarms.xml");
-        zclParser.addFile("src/main/resources/000A_Time.xml");
-        zclParser.addFile("src/main/resources/000B_RssiLocation.xml");
-        zclParser.addFile("src/main/resources/000C_AnalogInputBasic.xml");
-        zclParser.addFile("src/main/resources/000F_BinaryInputBasic.xml");
-        zclParser.addFile("src/main/resources/0012_MultistateInputBasic.xml");
-        zclParser.addFile("src/main/resources/0013_MultistateOutputBasic.xml");
-        zclParser.addFile("src/main/resources/0014_MultistateValueBasic.xml");
-        zclParser.addFile("src/main/resources/0015_Commissioning.xml");
-        zclParser.addFile("src/main/resources/0019_OtaUpgrade.xml");
-        zclParser.addFile("src/main/resources/0020_PollControl.xml");
-        zclParser.addFile("src/main/resources/0021_Greenpower.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0000_Basic.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0001_PowerConfiguration.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0003_Identify.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0004_Groups.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0005_Scenes.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0006_OnOff.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0007_OnOffSwitchConfiguration.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0008_LevelControl.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0009_Alarms.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/000A_Time.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/000B_RssiLocation.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/000C_AnalogInputBasic.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/000F_BinaryInputBasic.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0012_MultistateInputBasic.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0013_MultistateOutputBasic.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0014_MultistateValueBasic.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0015_Commissioning.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0019_OtaUpgrade.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0020_PollControl.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0021_Greenpower.xml");
 
-        zclParser.addFile("src/main/resources/0101_DoorLock.xml");
-        zclParser.addFile("src/main/resources/0102_WindowCovering.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0101_DoorLock.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0102_WindowCovering.xml");
 
-        zclParser.addFile("src/main/resources/0201_Thermostat.xml");
-        zclParser.addFile("src/main/resources/0202_FanControl.xml");
-        zclParser.addFile("src/main/resources/0203_DehumidificationControl.xml");
-        zclParser.addFile("src/main/resources/0204_ThermostatUserInterfaceConfiguration.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0201_Thermostat.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0202_FanControl.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0203_DehumidificationControl.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0204_ThermostatUserInterfaceConfiguration.xml");
 
-        zclParser.addFile("src/main/resources/0300_ColorControl.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0300_ColorControl.xml");
 
-        zclParser.addFile("src/main/resources/0400_IlluminanceMeasurement.xml");
-        zclParser.addFile("src/main/resources/0401_IlluminanceLevelSensing.xml");
-        zclParser.addFile("src/main/resources/0402_TemperatureMeasurement.xml");
-        zclParser.addFile("src/main/resources/0403_PressureMeasurement.xml");
-        zclParser.addFile("src/main/resources/0404_FlowMeasurement.xml");
-        zclParser.addFile("src/main/resources/0405_RelativeHumidityMeasurement.xml");
-        zclParser.addFile("src/main/resources/0406_OccupancySensing.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0400_IlluminanceMeasurement.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0401_IlluminanceLevelSensing.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0402_TemperatureMeasurement.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0403_PressureMeasurement.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0404_FlowMeasurement.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0405_RelativeHumidityMeasurement.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0406_OccupancySensing.xml");
 
-        zclParser.addFile("src/main/resources/0500_IasZone.xml");
-        zclParser.addFile("src/main/resources/0501_IasAce.xml");
-        zclParser.addFile("src/main/resources/0502_IasWd.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0500_IasZone.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0501_IasAce.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0502_IasWd.xml");
 
-        zclParser.addFile("src/main/resources/0700_Price.xml");
-        zclParser.addFile("src/main/resources/0701_DemandResponseAndLoadControl.xml");
-        zclParser.addFile("src/main/resources/0702_Metering.xml");
-        zclParser.addFile("src/main/resources/0703_Messaging.xml");
-        zclParser.addFile("src/main/resources/0704_SmartEnergyTunneling.xml");
-        zclParser.addFile("src/main/resources/0705_Prepayment.xml");
-        zclParser.addFile("src/main/resources/0800_KeyEstablishment.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0700_Price.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0701_DemandResponseAndLoadControl.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0702_Metering.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0703_Messaging.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0704_SmartEnergyTunneling.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0705_Prepayment.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0800_KeyEstablishment.xml");
 
-        zclParser.addFile("src/main/resources/0B04_ElectricalMeasurement.xml");
-        zclParser.addFile("src/main/resources/0B05_Diagnostics.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0B04_ElectricalMeasurement.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/0B05_Diagnostics.xml");
 
         List<ZigBeeXmlCluster> zclClusters = zclParser.parseClusterConfiguration();
 
         ZigBeeXmlParser zdoParser = new ZigBeeXmlParser();
-        zdoParser.addFile("src/main/resources/XXXX_ZigBeeDeviceObject.xml");
+        zdoParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/XXXX_ZigBeeDeviceObject.xml");
 
         List<ZigBeeXmlCluster> zdoClusters = zdoParser.parseClusterConfiguration();
 
@@ -124,7 +124,7 @@ public class ZigBeeCodeGenerator {
         new ZigBeeZclCommandGenerator(zdoClusters, generatedDate, zclTypes);
 
         zclParser = new ZigBeeXmlParser();
-        zclParser.addFile("src/main/resources/zigbee_constants.xml");
+        zclParser.addFile("com.zsmartsystems.zigbee.autocode/src/main/resources/zigbee_constants.xml");
         ZigBeeXmlGlobal globals = zclParser.parseGlobalConfiguration();
 
         for (ZigBeeXmlConstant constant : globals.constants) {

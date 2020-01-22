@@ -24,7 +24,7 @@ import com.zsmartsystems.zigbee.autocode.xml.ZigBeeXmlCluster;
 public class ZigBeeZclReadmeGenerator extends ZigBeeBaseClassGenerator {
     final String TABLE1 = "| ID | Cluster | Description |";
     final String TABLE2 = "|----|---------|-------------|";
-    final String README_MD = "../README.md";
+    final String README_MD = "./README.md";
 
     ZigBeeZclReadmeGenerator(List<ZigBeeXmlCluster> clusters) {
         FileInputStream fstream;

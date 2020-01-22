@@ -16,6 +16,7 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.TimeUnit;
 
+import com.zsmartsystems.zigbee.internal.Util;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -485,7 +486,7 @@ public class ZclOtaUpgradeServer implements ZigBeeApplication, ZclCommandListene
      * @return the current firmware version on the remote device
      */
     public Integer getCurrentFileVersion() {
-        return (Integer) cluster.getAttribute(ZclOtaUpgradeCluster.ATTR_CURRENTFILEVERSION).readValue(Long.MAX_VALUE);
+        return Util.readInteger( cluster.getAttribute(ZclOtaUpgradeCluster.ATTR_CURRENTFILEVERSION).readValue(Long.MAX_VALUE));
     }
 
     /**
